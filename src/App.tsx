@@ -11,7 +11,7 @@ const App: React.FC = () => {
                     Pomodoro Timer
                 </h1>
                 <p>
-
+                    A simple Pomodoro timer.
                 </p>
             </header>
         </div>

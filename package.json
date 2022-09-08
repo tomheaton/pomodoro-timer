@@ -1,6 +1,15 @@
 {
   "name": "pomodoro-timer",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A simple Pomodoro timer.",
+  "license": "MIT",
+  "author": {
+    "email": "tom@tomheaton.dev",
+    "name": "Tom Heaton",
+    "url": "tomheaton.dev"
+  },
+  "repository": "https://github.com/tomheaton/pomodoro-timer",
+  "readme": "README.md",
   "private": true,
   "dependencies": {
     "@tauri-apps/api": "^1.0.2",
