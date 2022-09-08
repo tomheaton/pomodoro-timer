@@ -1,0 +1,49 @@
+{
+  "name": "pomodoro-timer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.58",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.8.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "pomodoro-timer/node_modules/.bin/cross-env BROWSER=none react-scripts start",
+    "build": "pomodoro-timer/node_modules/.bin/react-scripts build",
+    "test": "pomodoro-timer/node_modules/.bin/react-scripts test",
+    "eject": "pomodoro-timer/node_modules/.bin/react-scripts eject",
+    "tauri": "pomodoro-timer/node_modules/.bin/tauri"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5",
+    "cross-env": "^7.0.3"
+  }
+}
